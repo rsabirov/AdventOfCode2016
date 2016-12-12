@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "AdventOfCode2016": "1.0.0-*",
+    //"Microsoft.NETCore.App": "1.1.0",
+    "NUnit": "3.5.0",
+    "NUnit.Runners": "3.5.0",
+    "NUnit3TestAdapter": "3.6.0",
+    //"xunit": "2.1.0"
+
+    "NETStandard.Library": "1.6.1"
+  },
+
+  "frameworks": {
+    "net45": {
+      
+    }
+    //"netcoreapp1.1": {
+    //  "imports": "dnxcore50"
+    //}
+  }
+}
