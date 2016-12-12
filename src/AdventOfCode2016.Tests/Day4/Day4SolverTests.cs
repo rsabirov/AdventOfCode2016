@@ -12,7 +12,7 @@ namespace AdventOfCode2016.Tests.Day4
         [TestCase("a-b-c-d-e-f-g-h-987[abcde]", "a-b-c-d-e-f-g-h", 987, "abcde", true)]
         [TestCase("not-a-real-room-404[oarel]", "not-a-real-room", 404, "oarel", true)]
         [TestCase("totally-real-room-200[decoy]", "totally-real-room", 200, "decoy", false)]
-        public void EncryptedNameTest(string encryptedText, string name, int id, string checksum, bool isReal)
+        public void Day4EncryptedNameTest(string encryptedText, string name, int id, string checksum, bool isReal)
         {
             var parsed = EncryptedName.Parse(encryptedText);
             Assert.AreEqual(name, parsed.Name);
@@ -22,14 +22,14 @@ namespace AdventOfCode2016.Tests.Day4
         }
 
         [Test]
-        public void DecrypedNameTest()
+        public void Day4DecrypedNameTest()
         {
             var p = EncryptedName.Parse("qzmt-zixmtkozy-ivhz-343[dfsae]");
             Assert.AreEqual("very encrypted name", p.DecryptedName);
         }
 
         [Test]
-        public void DayInstructionTest()
+        public void Day4Part1InstructionTest()
         {
             var data = new[]
             {
