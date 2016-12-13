@@ -27,7 +27,7 @@ namespace AdventOfCode2016.Tests.Day7
             var lines = File.ReadAllLines(path);
 
             var solver = new Day7Solver();
-            var ans = solver.SolverPart1(lines);
+            var ans = solver.SolvePart1(lines);
 
             Assert.AreEqual(118, ans);
         }
@@ -51,7 +51,7 @@ namespace AdventOfCode2016.Tests.Day7
             var lines = File.ReadAllLines(path);
 
             var solver = new Day7Solver();
-            var ans = solver.SolverPart2(lines);
+            var ans = solver.SolvePart2(lines);
 
             Assert.AreEqual(260, ans);
         }
