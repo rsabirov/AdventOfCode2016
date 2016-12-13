@@ -3,6 +3,7 @@ using NUnit.Framework;
 
 namespace AdventOfCode2016.Tests.Day5
 {
+    [Ignore("Test too slow")]
     public sealed class Day5SolverTests
     {
         [Test]
