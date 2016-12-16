@@ -2,7 +2,7 @@
 {
     public sealed class Day16Solver
     {
-        public string Day16Solve(string initialState, int len)
+        public string Solve(string initialState, int len)
         {
             var data = new Data(initialState);
 
