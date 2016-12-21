@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
 namespace AdventOfCode2016.Day5
