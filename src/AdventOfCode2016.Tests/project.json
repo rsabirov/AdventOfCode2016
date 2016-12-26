@@ -1,5 +1,6 @@
 ﻿{
   "version": "1.0.0-*",
+  "testRunner": "nunit",
 
   "dependencies": {
     "AdventOfCode2016": "1.0.0-*",
@@ -8,13 +9,23 @@
     "NUnit.Runners": "3.5.0",
     "NUnit3TestAdapter": "3.6.0",
     //"xunit": "2.1.0"
+    "dotnet-test-nunit": "3.4.0-beta-2",
 
     "NETStandard.Library": "1.6.1"
   },
 
+  //"runtimes": {
+  //  "win": {}
+  //},
+
+  //"buildOptions": {
+  //  "platform": "x64"
+  //},
+
   "frameworks": {
-    "net45": {
-      
+    "net451": {
+
+
     }
     //"netcoreapp1.1": {
     //  "imports": "dnxcore50"

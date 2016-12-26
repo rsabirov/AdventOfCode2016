@@ -8,7 +8,7 @@ namespace AdventOfCode2016.Tests.TestData
         public static string GetPath(string fileName)
         {
             return Path.Combine(TestContext.CurrentContext.TestDirectory, 
-                @"..\..\..\TestData\", fileName);
+                @"..\..\..\..\TestData\", fileName);
 
         }
     }
